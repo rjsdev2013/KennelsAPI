@@ -1,67 +1,94 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Fido",
-            "breed": "Beagle",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Eli",
-            "breed": "Black Lab",
-            "customerId": 3,
-            "locationId": 3
-        },
-        {
-            "id": 4,
-            "name": "Georgia",
-            "breed": "Golden Retriever",
-            "customerId": 3,
-            "locationId": 3
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Sydney Noh",
-            "address": "976 Software School Rd."
-        },
-        {
-            "id": 2,
-            "name": "Trevor Guinn",
-            "address": "123 NSS Ln"
-        },
-        {
-            "id": 3,
-            "name": "Ryan Stahr",
-            "address": "404 Web Dev Drive"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        },
-        {
-            "id": 3,
-            "name": "Nashville East",
-            "address": "514 Wesley Ave"
-        }
-    ]
-  }
+  "animals": [
+    {
+      "id": 1,
+      "name": "Mac",
+      "breed": "Golden Retriever Mix"
+    },
+    {
+      "id": 2,
+      "name": "Lily",
+      "breed": "Labra-Doodle",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Eli",
+      "breed": "Black Lab",
+      "customerId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "name": "Georgia",
+      "breed": "Golden Retriever",
+      "customerId": 3,
+      "locationId": 3
+    },
+    {
+      "name": "Jackie",
+      "breed": "German Shepherd",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Sydney Noh",
+      "address": "976 Software School Rd.",
+      "phoneNumber": "615-423-1990",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "name": "Trevor Guinn",
+      "address": "123 NSS Ln",
+      "phoneNumber": "615-423-1991"
+    },
+    {
+      "id": 3,
+      "name": "Ryan Stahr",
+      "address": "404 Web Dev Drive",
+      "phoneNumber": "615-423-1992"
+    },
+    {
+      "email": "sydney@noh.com",
+      "name": "sydney Noh",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ryan Stahr",
+      "address": "404 Web Dev Drive",
+      "phoneNumber": "615-423-1992"
+    },
+    {
+      "id": 2,
+      "name": "Cristina Stahr",
+      "address": "404 Web Dev Drive",
+      "phoneNumber": "615-423-1993"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "123 North Avenue"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville East",
+      "address": "514 Wesley Ave"
+    }
+  ]
+}
